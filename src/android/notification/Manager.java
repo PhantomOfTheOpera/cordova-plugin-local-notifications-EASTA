@@ -97,6 +97,8 @@ public class Manager {
 
         //notification.schedule();
 
+        notification.show();
+
         return notification;
     }
 
