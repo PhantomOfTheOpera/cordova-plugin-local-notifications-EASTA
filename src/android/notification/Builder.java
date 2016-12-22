@@ -131,8 +131,8 @@ public class Builder {
                 .setTicker(options.getText())
                 .setAutoCancel(options.isAutoClear())
                 .setOngoing(options.isOngoing())
-                .setColor(options.getColor());
-
+                .setColor(options.getColor())
+                .setWhen(0);
         
         //Set heads-up
         if(options.getHeadsUp()) {
@@ -222,7 +222,6 @@ public class Builder {
 
         applyDeleteReceiver(builder);
         applyContentReceiver(builder);
-
         return new Notification(context, options, builder, triggerReceiver);
     }
 

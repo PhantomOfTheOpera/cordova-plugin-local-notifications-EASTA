@@ -93,9 +93,9 @@ public class Manager {
                 .setTriggerReceiver(receiver)
                 .build();
 
-        notification.cancel();
+        //notification.cancel();
 
-        notification.schedule();
+        //notification.schedule();
 
         return notification;
     }

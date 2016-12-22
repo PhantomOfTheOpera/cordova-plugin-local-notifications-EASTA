@@ -83,8 +83,8 @@ public class Notification {
         this.context = context;
         this.options = options;
         this.builder = builder;
-
         this.receiver = receiver != null ? receiver : defaultReceiver;
+
     }
 
     /**
