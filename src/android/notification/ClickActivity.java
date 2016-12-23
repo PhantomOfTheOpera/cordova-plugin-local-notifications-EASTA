@@ -39,19 +39,7 @@ public class ClickActivity extends AbstractClickActivity {
      *      Wrapper around the local notification
      */
     public void onClick(Notification notification) {
-
-        //LocalNotification.fireEvent("click", notification);
-
-        launchApp();
-
-        if (notification.getOptions().isOngoing())
-            return;
-
-        if (notification.isRepeating()) {
-            notification.clear();
-        } else {
-            notification.cancel();
-        }
+        ;
     }
 
     /**
