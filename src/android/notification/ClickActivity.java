@@ -28,7 +28,7 @@ import de.appplant.cordova.plugin.localnotification;
  * The activity calls the background callback and brings the launch intent
  * up to foreground.
  */
-public class ClickActivity extends AbstractClickActivity {
+//public class ClickActivity extends AbstractClickActivity {
 
     /**
      * Called when local notification was clicked by the user. Will
@@ -36,7 +36,7 @@ public class ClickActivity extends AbstractClickActivity {
      *
      * @param notification
      *      Wrapper around the local notification
-     */
+     *
     public void onClick(Notification notification) {
 
         LocalNotification.fireEvent("click", notification);
@@ -55,9 +55,10 @@ public class ClickActivity extends AbstractClickActivity {
      *
      * @param builder
      *      Notification builder
-     */
+     *
     public Notification buildNotification (Builder builder) {
         return builder.build();
     }
 
 }
+*/

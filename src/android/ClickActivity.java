@@ -32,7 +32,7 @@ import de.appplant.cordova.plugin.notification.TriggerReceiver;
  * The activity calls the background callback and brings the launch intent
  * up to foreground.
  */
-public class ClickActivity extends de.appplant.cordova.plugin.notification.ClickActivity {
+public class ClickActivity extends de.appplant.cordova.plugin.notification.AbstractClickActivity {
 
     /**
      * Called when local notification was clicked by the user.
