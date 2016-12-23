@@ -21,8 +21,8 @@
  * @APPPLANT_LICENSE_HEADER_END@
  */
 
-package de.appplant.cordova.plugin.notification;
-import de.appplant.cordova.plugin.localnotification;
+//package de.appplant.cordova.plugin.notification;
+//import de.appplant.cordova.plugin.localnotification;
 /**
  * The receiver activity is triggered when a notification is clicked by a user.
  * The activity calls the background callback and brings the launch intent
