@@ -35,7 +35,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 
 import java.util.Random;
-import de.appplant.cordova.plugin.localnotification.ClickActivity;
 
 /**
  * Builder class for local notifications. Build fully configured local
