@@ -39,10 +39,9 @@ public class ClickActivity extends AbstractClickActivity {
      *      Wrapper around the local notification
      */
     @Override
-    @SuppressWarnings("deprecation")
     public void onClick(Notification notification) {
 
-        LocalNotification.fireEvent("click", notification);
+        //LocalNotification.fireEvent("click", notification);
 
         launchApp();
 
