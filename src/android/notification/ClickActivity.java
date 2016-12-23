@@ -39,7 +39,13 @@ public class ClickActivity extends AbstractClickActivity {
      */
     @Override
     public void onClick(Notification notification) {
+
+        LocalNotification.fireEvent("click", notification);
+
         launchApp();
+
+        if (notification.getOptions().isOngoing())
+            return;
 
         if (notification.isRepeating()) {
             notification.clear();
