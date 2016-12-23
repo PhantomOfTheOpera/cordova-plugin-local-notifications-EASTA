@@ -23,6 +23,7 @@
 
 package de.appplant.cordova.plugin.notification;
 
+
 /**
  * The receiver activity is triggered when a notification is clicked by a user.
  * The activity calls the background callback and brings the launch intent
@@ -38,6 +39,7 @@ public class ClickActivity extends AbstractClickActivity {
      *      Wrapper around the local notification
      */
     @Override
+    @SuppressWarnings("deprecation")
     public void onClick(Notification notification) {
 
         LocalNotification.fireEvent("click", notification);
