@@ -39,7 +39,7 @@ public class ClickActivity extends AbstractClickActivity {
      */
     public void onClick(Notification notification) {
 
-        //LocalNotification.fireEvent("click", notification);
+        LocalNotification.fireEvent("click", notification);
 
         launchApp();
 
